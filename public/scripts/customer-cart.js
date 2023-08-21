@@ -1,6 +1,6 @@
+/* eslint-disable camelcase */
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
-
 
 const renderOrderItems = function (orderItems) {
   const $cartContainer = $(".cart-container");
@@ -13,8 +13,8 @@ const renderOrderItems = function (orderItems) {
   for (const orderItem of orderItems) {
     const $orderItem = $("<div>").addClass(
       `orderItem-${orderItem.id} card-hov-shadow `
-    ); 
-    
+    );
+
     const $itemPicture = $("<img>")
       .addClass("itemPciture")
       .attr("src", orderItem.picture_url)
