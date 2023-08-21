@@ -15,7 +15,6 @@ const showRestaurants = () => {
   });
 };
 
-//construct the page
 // Construct the page
 const renderRestaurants = function(restaurants) {
   const $restaurantsContainer = $(".restaurants-container");
@@ -52,7 +51,6 @@ const renderRestaurants = function(restaurants) {
     $location.append($locationBody);
 
     const $locationFooter = $("<div>").addClass("location-footer");
-    // Add footer content here
 
     $location.append($locationFooter);
     $location.on("click", () => {

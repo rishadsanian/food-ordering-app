@@ -30,7 +30,6 @@ const addOrder = async (item) => {
       console.log(err.message);
       throw err;
     });
-
 };
 
 router.post("/", async (req, res) => {

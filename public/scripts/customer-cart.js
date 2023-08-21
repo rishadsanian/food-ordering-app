@@ -1,26 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
-//mount all customer functions here
-// const {renderMenu} = require('./customer-menu');
 
-// renderMenu();
-
-// const getCart = (id) => {
-//   $.get("/api/cart/", function (data) {
-//     console.log(data);
-//     const orderItems = data.order_items;
-//     console.log(order_items);
-
-//     // for (const location of restaurants) {
-//     //   console.log(location.restaurant_id);
-//     // }
-
-//     renderOrderItems(order_items);
-//   }).fail(function (xhr, status, error) {
-//     // redirect to /error -> error.ejs
-//     console.log(error);
-//   });
-// };
 
 const renderOrderItems = function (orderItems) {
   const $cartContainer = $(".cart-container");
@@ -33,21 +13,8 @@ const renderOrderItems = function (orderItems) {
   for (const orderItem of orderItems) {
     const $orderItem = $("<div>").addClass(
       `orderItem-${orderItem.id} card-hov-shadow `
-    ); //=> this orderItem.id needs to be change to random generated ID with cookies info
-    // .css({
-    //   display: "flex",
-    //   "flex-direction": "column",
-    //   "justify-content": "space-around",
-    //   "background-color": "white",
-    //   "font-size": "large",
-    //   width: "50vw",
-    //   border: "solid 1px black",
-    //   "border-radius": "7em",
-    //   padding: "2.5em",
-    //   margin: "10px 0",
-    //   overflow: "hidden",
-    // });
-
+    ); 
+    
     const $itemPicture = $("<img>")
       .addClass("itemPciture")
       .attr("src", orderItem.picture_url)
