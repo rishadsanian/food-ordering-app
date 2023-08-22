@@ -1,15 +1,22 @@
-LHL Node Skeleton
+Hungry Hub
 =========
 
-## Project Setup
-<!-- 
-The following steps are only for _one_ of the group members to perform.
+Hungry Hub is a basic online food-ordering app. It lets customers place their orders online for pickup and restaurants view orders. The app has been built using PSQL, Express, JQuery, Node. 
+This is a project for the Lighthouse Labs Web Development program. 
 
-1. Create your own copy of this repo using the `Use This Template` button, ideally using the name of your project. The repo should be marked Public
-2. Verify that the skeleton code now shows up in your repo on GitHub, you should be automatically redirected
-3. Clone your copy of the repo to your dev machine
-4. Add your team members as collaborators to the project so that they can push to this repo
-5. Let your team members know the repo URL so that they use the same repo (they should _not_ create a copy/fork of this repo since that will add additional workflow complexity to the project) -->
+## Screenshots
+
+### Login
+![image](https://github.com/rishadsanian/hungry-hub/assets/77033627/e170dc4a-68c1-481b-8ba5-390179265125)
+
+### Customer View
+![image](https://github.com/rishadsanian/hungry-hub/assets/77033627/cac7b375-3c6d-42a6-b3f8-a8491f7c28b9)
+![image](https://github.com/rishadsanian/hungry-hub/assets/77033627/37b7ffe5-6704-4065-ac22-31f8d13bf662)
+![image](https://github.com/rishadsanian/hungry-hub/assets/77033627/6cc6a985-2dd3-4fb4-af98-33996fa5d571)
+
+### Restaurant View
+![image](https://github.com/rishadsanian/hungry-hub/assets/77033627/8869d230-b83f-41b3-9ad6-b51a99abfdad)
+
 
 
 ## Getting Started
